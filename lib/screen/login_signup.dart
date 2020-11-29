@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_singup/config/palette.dart';
 
 
 class LoginSignupScreen extends StatefulWidget {
@@ -13,6 +14,8 @@ class _LoginSignupScreenState extends State<LoginSignupScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Palette.backgroundColor,
+    );
   }
 }
